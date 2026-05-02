@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-color: #191B2A;
+    color: rgb(81, 197, 247);
+}
+
+
+.glow ,.score {
+  /* font-size: 80px; */
+  color: #fff; /* Text color should be light for best effect */
+  text-align: center;
+  text-shadow:
+    0 0 10px #378ef7, /* horizontal-offset vertical-offset blur-radius color */
+    0 0 20px #378ef7,
+    0 0 30px #378ef7,
+    0 0 40px #378ef7;
+}
+
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid rgb(81, 197, 247);
+    margin: 2rem;
+
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.green{
+    background-color: #2ecc71;
+}
+
+.red{
+    background-color: #e74c3c;
+}
+
+.yellow{
+    background-color:  #ffff00;
+}
+
+.blue{
+    background-color: #54abf3;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: rgb(172, 27, 143);
+}
